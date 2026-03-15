@@ -1,0 +1,17 @@
+body{
+font-family:Arial;
+padding:20px;
+}
+
+.center{
+display:flex;
+flex-direction:column;
+width:300px;
+margin:auto;
+gap:10px;
+}
+
+button{
+padding:8px;
+cursor:pointer;
+}
