@@ -19,7 +19,7 @@ This project is a *4-screen Employee Insights Dashboard* built with React and ra
 - Persistent session using localStorage  
 - Redirects to login if /list is accessed without authentication  
 
-✅ Fully implemented  
+
 
 ---
 
@@ -37,7 +37,6 @@ This project is a *4-screen Employee Insights Dashboard* built with React and ra
 - *HTML5 Canvas overlay* for signature  
 - Merges photo + signature into a single image (Base64)  
 
-✅ Fully implemented  
 
 ---
 
@@ -58,11 +57,4 @@ This project is a *4-screen Employee Insights Dashboard* built with React and ra
 
 ---
 
-## Virtualization Math
-- *Row height:* 50px  
-- *Buffer:* 5 rows above/below viewport  
-- *Visible row calculation:*
-```js
-const startIndex = Math.max(0, Math.floor(scrollTop / rowHeight) - buffer);
-const endIndex = Math.min(totalRows, Math.ceil((scrollTop + containerHeight) / rowHeight) + buffer);
-const visibleRows = data.slice(startIndex, endIndex);
+
